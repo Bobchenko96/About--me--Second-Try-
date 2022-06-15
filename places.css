@@ -1,0 +1,29 @@
+
+.conteiner{
+    display: flex;
+    max-width: 100%;
+    margin-top: 30px;
+}
+.card {
+  border-radius: 1em;
+  text-align: center;
+  border: 1px solid rgba(148, 148, 148, 0);
+  width: 60%;
+  padding :2em;
+ 
+}
+.card:hover {
+  background-color: rgb(224, 221, 221);
+}
+.card img {
+  border-radius: 50%;
+  margin: auto;
+  width: 250px;
+}
+.btn {
+  background-color: rgb(44, 110, 191);
+  padding: 10px 10px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
